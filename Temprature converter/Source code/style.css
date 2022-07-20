@@ -1,0 +1,126 @@
+
+*
+{
+    margin:0px
+}
+:root
+{
+    --primary:rgb(76, 76, 117) ;
+    --dark:rgb(70, 132, 135);
+
+}
+header{
+    height:70px;
+    background-color:rgb(70, 132, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    position:relative;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    padding: 10px;
+}
+body{
+    background-color:rgb(76, 76, 117);
+    
+}
+.form
+{
+    position: relative;
+    left:25%;
+    text-align: center;
+    width:600px;
+    background-color: grey;
+    padding:30px;
+    margin:50px;
+    border-radius: 4px;
+    
+}
+label{
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+input
+{
+    border-radius:3px;
+    border:none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:3px;
+}
+
+span
+{
+    background-color: rgb(150, 165, 165);
+    padding:5px;
+    color:aliceblue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-shadow: 1px 1px 2px black;
+}
+button{
+    border:solid;
+    border-width: 3px;
+    border-radius:2px;
+    border-color: var(--dark);
+    background-color: var(--primary);
+    color: var(--dark);
+    padding: 4px;
+    width:80px;
+    font-weight: 800;
+
+}
+p{
+    color: aliceblue;
+}
+select
+{
+    border-radius: 5px;
+    height:25px;
+    width:60px;
+    font-weight: bold;
+
+}
+option{
+    text-align: center;
+    font-weight: bold;
+    border-radius:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover
+{
+    background-color: var(--dark);
+    color:var(--primary);
+    transition: 0.3s;
+    cursor: pointer;
+}
+footer{
+    padding:10px;
+    background-color: grey;
+    width: 100%;
+    height:10%;
+    position:fixed;
+    bottom :0px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 56px;
+
+
+    /* clip-path: polygon(2% 0, 98% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%); */
+}
+img{
+    text-align: left;
+    width:35px;
+    position:relative;
+    float: left;
+    bottom:35px;
+    padding:4px;
+
+}
+nav{
+    background-color:white;
+}
